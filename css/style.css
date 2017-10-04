@@ -1,0 +1,75 @@
+/** Propiedades generales a todos los elementos **/
+*{
+	font-family: consolas, "comic sans ms", arial;
+	font-size: 100%;
+}
+/** Propiedades titulo principal **/
+h1.principal_titulo	{
+	float: left;
+	margin-left: 50px;
+	margin-top: 0px;
+}
+.navbar-toggle {
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.contenedor_principal {
+	background-color: rgb(194, 194, 214);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+li .opcion_menu {
+	text-align: center;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+h3 {
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+a.opcion_menu.visible-xs {
+	padding: 0;
+}
+hr.hr_division {
+	border-color: black;
+	border-width: 2px;
+	margin: 0;
+}
+button.navbar-toggle {
+	margin-bottom: 25px;
+}
+/** Propiedades para la seccion principal **/
+.main {
+	float: right;
+}
+.center {
+	text-align: center;
+}
+div .contenedora_platos {
+	background-color: rgb(194,194,214);
+	margin-bottom: 20px;
+}
+.contenido_plato {
+	text-align: left;
+	margin: 20px;
+}
+/** Regla para el tamaño de cada dispositivo **/
+/** Dispositivo 767px **/
+@media (max-width: 767px){
+.menu_fondo {
+	border-style: solid;
+	border-color: #000000;
+	border-width: 2px;
+}	
+ul .nav {
+	margin: 0;
+}
+div #collapsable-nav {
+	background-color: white;
+}
+}
